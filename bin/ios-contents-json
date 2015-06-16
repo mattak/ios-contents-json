@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'ios/contents/json'
+
+Ios::Contents::Json::run(ARGV[0])
