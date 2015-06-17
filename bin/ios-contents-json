@@ -2,4 +2,10 @@
 
 require 'ios/contents/json'
 
-Ios::Contents::Json.run(ARGV[0])
+if ARGV.size < 1
+  puts "usage: #{File.basename($0)} <contents-json-file>+"
+end
+
+ARGV.each do |file|
+  Ios::Contents::Json.run(file)
+end
