@@ -1,6 +1,46 @@
 # Ios::Contents::Json
 
 Images.xcassets/XXX.imageset/Contents.json to remove unused options.
+It convert from multiple scale options to single vectored options.
+
+from:
+
+    {
+      "images" : [
+        {
+          "idiom" : "universal",
+          "scale" : "1x",
+          "filename" : "something.pdf"
+        },
+        {
+          "idiom" : "universal",
+          "scale" : "2x"
+        },
+        {
+          "idiom" : "universal",
+          "scale" : "3x"
+        }
+      ],
+      "info" : {
+        "version" : 1,
+        "author" : "xcode"
+      }
+    }
+
+to:
+
+    {
+      "images": [
+        {
+          "idiom": "universal",
+          "filename": "hoge.pdf"
+        }
+      ],
+      "info": {
+        "version": 1,
+        "author": "xcode"
+      }
+    }
 
 ## Installation
 

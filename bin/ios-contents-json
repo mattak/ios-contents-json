@@ -2,4 +2,4 @@
 
 require 'ios/contents/json'
 
-Ios::Contents::Json::run(ARGV[0])
+Ios::Contents::Json.run(ARGV[0])
