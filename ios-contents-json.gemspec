@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Ios::Contents::Json::VERSION
   spec.authors       = ["mattak"]
   spec.email         = ["mattak.me@gmail.com"]
-  spec.summary       = %q{Remove unused ios Contents.json setting}
-  spec.description   = %q{Remove unused ios Contents.json setting}
-  spec.homepage      = "https://github.com/mattak/ios-content-json"
+  spec.summary       = %q{Modify xcode's xcassets Contents.json}
+  spec.description   = %q{Convert Contents.json from default options to single vector setting}
+  spec.homepage      = "https://github.com/mattak/ios-contents-json"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
