@@ -10,7 +10,7 @@ from:
         {
           "idiom" : "universal",
           "scale" : "1x",
-          "filename" : "something.pdf"
+          "filename" : "example.pdf"
         },
         {
           "idiom" : "universal",
@@ -33,7 +33,7 @@ to:
       "images": [
         {
           "idiom": "universal",
-          "filename": "hoge.pdf"
+          "filename": "example.pdf"
         }
       ],
       "info": {
